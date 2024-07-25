@@ -1,10 +1,16 @@
 body {
-  height: 3000px;
+  height: max-content;
   background-color: black;
   font-family: Arial, sans-serif;
   margin: 0;
   padding: 0;
   color: black;
+
+  .container {
+    position: relative;
+    width: 100%;
+    height: 100vh;
+  }
 }
 .top-bar {
   position: fixed;
@@ -94,29 +100,431 @@ body {
   z-index: 100;
   flex-direction: column;
 }
-.btn-mid-1
-{
-    width: 80px;
-    height: 80px;
-    background-color: blue;
-    color: white;
+.btn-mid-1 {
+  width: 80px;
+  height: 80px;
+  background-color: blue;
+  color: white;
 }
-.btn-mid-2
-{
-    width: 80px;
-    height: 80px;
+.btn-mid-2 {
+  width: 80px;
+  height: 80px;
+  background-color: black;
+  color: white;
+}
+.Quang-Cao img {
+  width: 100%;
+  height: 100vh;
+}
+.tayga {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  border-bottom: 1px solid gray;
+}
+.anhnentayga {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  z-index: 10;
+}
+.anhnentayga img {
+  width: 100%;
+  height: 50vh;
+  z-index: 10;
+}
+
+.kham-pha {
+  position: absolute;
+  display: flex;
+  width: 70%;
+  height: 30vh;
+  background-color: white;
+  z-index: 20;
+  right: 0;
+  border-radius: 0 0 0 30px;
+}
+
+.kham-pha h1 {
+  position: absolute;
+  text-align: center;
+  z-index: 20;
+  margin: 0px;
+  top: 30%;
+  left: 15%;
+}
+.kham-pha h2 {
+  position: absolute;
+  text-align: center;
+  z-index: 20;
+  margin: 0px;
+  top: 65%;
+  left: -15%;
+}
+.kham-pha img {
+  position: absolute;
+  z-index: 20;
+  margin: 0px;
+  top: 90%;
+  left: -10%;
+}
+.gia {
+  position: absolute;
+  width: 40%;
+  height: 20vh;
+  background-color: white;
+  z-index: 30;
+  right: 0;
+  border-radius: 30px 0 0 0;
+  top: 156%;
+}
+.gia h1 {
+  font-size: 50px;
+  position: absolute;
+  text-align: center;
+  z-index: 20;
+  margin: 0px;
+  top: 20%;
+  left: 20%;
+}
+.gia p {
+  font-size: 16px;
+  position: absolute;
+  text-align: center;
+  z-index: 20;
+  margin: 0px;
+  top: 50%;
+  left: 15%;
+}
+.xem-chi-tiet {
+  width: 200px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  text-align: center;
+  top: 68%;
+  left: 14%;
+}
+
+.xo {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  border-bottom: 1px solid gray;
+}
+.anhnenxo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  z-index: 10;
+}
+.anhnenxo img {
+  width: 100%;
+  height: 50vh;
+  z-index: 10;
+}
+
+.kham-pha-xo {
+  position: absolute;
+  display: flex;
+  width: 70%;
+  height: 30vh;
+  background-color: white;
+  z-index: 20;
+  right: 0;
+  border-radius: 0 0 0 30px;
+}
+
+.kham-pha-xo h1 {
+  position: absolute;
+  text-align: center;
+  z-index: 20;
+  margin: 0px;
+  top: 30%;
+  left: 15%;
+}
+.kham-pha-xo h2 {
+  position: absolute;
+  text-align: center;
+  z-index: 20;
+  margin: 0px;
+  top: 65%;
+  left: -15%;
+}
+.kham-pha-xo img {
+  position: absolute;
+  z-index: 20;
+  margin: 0px;
+  top: 90%;
+  left: -10%;
+}
+.giaxo {
+  position: absolute;
+  width: 40%;
+  height: 20vh;
+  background-color: white;
+  z-index: 30;
+  right: 0;
+  border-radius: 30px 0 0 0;
+  top: 256%;
+}
+.giaxo h1 {
+  font-size: 50px;
+  position: absolute;
+  text-align: center;
+  z-index: 20;
+  margin: 0px;
+  top: 20%;
+  left: 20%;
+}
+.giaxo p {
+  font-size: 16px;
+  position: absolute;
+  text-align: center;
+  z-index: 20;
+  margin: 0px;
+  top: 50%;
+  left: 15%;
+}
+.xem-chi-tiet-xo {
+  width: 200px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  text-align: center;
+  top: 68%;
+  left: 14%;
+}
+
+.dien {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  border-bottom: 1px solid gray;
+}
+.anhnendien {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  z-index: 10;
+}
+.anhnendien img {
+  width: 100%;
+  height: 50vh;
+  z-index: 10;
+}
+
+.kham-pha-dien {
+  position: absolute;
+  display: flex;
+  width: 70%;
+  height: 30vh;
+  background-color: white;
+  z-index: 20;
+  right: 0;
+  border-radius: 0 0 0 30px;
+}
+
+.kham-pha-dien h1 {
+  position: absolute;
+  text-align: center;
+  z-index: 20;
+  margin: 0px;
+  top: 30%;
+  left: 15%;
+}
+.kham-pha-dien h2 {
+  position: absolute;
+  text-align: center;
+  z-index: 20;
+  margin: 0px;
+  top: 65%;
+  left: -15%;
+}
+.kham-pha-dien img {
+  position: absolute;
+  z-index: 20;
+  margin: 0px;
+  top: 90%;
+  left: -10%;
+}
+.giadien {
+  position: absolute;
+  width: 40%;
+  height: 20vh;
+  background-color: white;
+  z-index: 30;
+  right: 0;
+  border-radius: 30px 0 0 0;
+  top: 356%;
+}
+.giadien h1 {
+  font-size: 50px;
+  position: absolute;
+  text-align: center;
+  z-index: 20;
+  margin: 0px;
+  top: 20%;
+  left: 18%;
+}
+.giadien p {
+  font-size: 16px;
+  position: absolute;
+  text-align: center;
+  z-index: 20;
+  margin: 0px;
+  top: 50%;
+  left: 15%;
+}
+.xem-chi-tiet-dien {
+  width: 200px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  text-align: center;
+  top: 68%;
+  left: 14%;
+}
+
+.xecon {
+  width: 100%;
+  height: 100vh;
+  background-color: white;
+  border-bottom: 1px solid gray;
+}
+.anhnenxecon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  z-index: 10;
+}
+.anhnenxecon img {
+  width: 100%;
+  height: 50vh;
+  z-index: 10;
+}
+
+.kham-pha-xecon {
+  position: absolute;
+  display: flex;
+  width: 70%;
+  height: 30vh;
+  background-color: white;
+  z-index: 20;
+  right: 0;
+  border-radius: 0 0 0 30px;
+}
+
+.kham-pha-xecon h1 {
+  position: absolute;
+  text-align: center;
+  z-index: 20;
+  margin: 0px;
+  top: 30%;
+  left: 15%;
+}
+.kham-pha-xecon h2 {
+  position: absolute;
+  text-align: center;
+  z-index: 20;
+  margin: 0px;
+  top: 65%;
+  left: -15%;
+}
+.kham-pha-xecon img {
+  position: absolute;
+  z-index: 20;
+  margin: 0px;
+  top: 90%;
+  left: -10%;
+}
+.giaxecon {
+  position: absolute;
+  width: 40%;
+  height: 20vh;
+  background-color: white;
+  z-index: 30;
+  right: 0;
+  border-radius: 30px 0 0 0;
+  top: 456%;
+}
+.giaxecon h1 {
+  font-size: 50px;
+  position: absolute;
+  text-align: center;
+  z-index: 20;
+  margin: 0px;
+  top: 20%;
+  left: 15%;
+}
+.giaxecon p {
+  font-size: 16px;
+  position: absolute;
+  text-align: center;
+  z-index: 20;
+  margin: 0px;
+  top: 50%;
+  left: 15%;
+}
+.xem-chi-tiet-xecon {
+  width: 200px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  position: absolute;
+  text-align: center;
+  top: 68%;
+  left: 14%;
+}
+
+.tu-van-mua-xe {
+  width: 100%;
+  height: 30vh;
+  background-color: white;
+  margin: 0px;
+  text-align: center;
+  item-align: center;
+  justify-content: center;
+}
+
+.tu-van-mua-xe h1 {
+  margin: 0px;
+  padding: 0px;
+  font-size: 30px;
+  color: black;
+  padding-top: 20px;
+}
+
+.tu-van-mua-xe button {
+  width: 200px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+.tu-van-mua-xe button:hover {
+  color: red;
+}
+.lien-he{
+    width: 100%;
+    height: 35vh;
     background-color: black;
     color: white;
-}
-.Quang-Cao img
-{
-    width: 100%;
-    height : 100vh;
-}
-.tayga
-{
-    width: 100%;
-    height: 100vh;
-    background-color: white;
-    border-bottom: 1px solid gray;
+    margin: 0px;
 }
