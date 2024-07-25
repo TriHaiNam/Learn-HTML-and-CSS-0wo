@@ -1,0 +1,122 @@
+body {
+  height: 3000px;
+  background-color: black;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  color: black;
+}
+.top-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  color: black;
+  padding: 10px 0;
+  text-align: center;
+  z-index: 1000;
+}
+
+.top-bar img {
+  vertical-align: middle;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  margin-left: 20px;
+  float: left;
+}
+.na-buttons {
+  display: flex;
+  position: absolute;
+  gap: 28px;
+  margin-right: 20px;
+  bottom: 0;
+  right: 0;
+  z-index: 100;
+}
+
+.ga-buttons {
+  display: flex;
+  position: absolute;
+  gap: 25px;
+  margin-right: 20px;
+  right: 0;
+  z-index: 100;
+}
+
+.na-buttons h2 {
+  color: black;
+  text-decoration: none;
+  padding: 0px 0px;
+  background-color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  font-size: 16px;
+}
+
+.ga-buttons a {
+  color: black;
+  text-decoration: none;
+  padding: 0px 0px;
+  background-color: white;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+  font-size: 14px;
+}
+
+.na-buttons h2:hover {
+  color: blue;
+}
+.ga-buttons a:hover {
+  color: blue;
+}
+.phan-thua {
+  width: 200px;
+  height: 70px;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: white;
+  border-radius: 0 0 0 30px;
+  z-index: 0;
+}
+
+.btn-mid {
+  position: fixed;
+  width: 80px;
+  height: 160px;
+  position: fixed;
+  top: 50%;
+  right: 0;
+  transform: translateY(-50%);
+  background-color: white;
+  z-index: 100;
+  flex-direction: column;
+}
+.btn-mid-1
+{
+    width: 80px;
+    height: 80px;
+    background-color: blue;
+    color: white;
+}
+.btn-mid-2
+{
+    width: 80px;
+    height: 80px;
+    background-color: black;
+    color: white;
+}
+.Quang-Cao img
+{
+    width: 100%;
+    height : 100vh;
+}
+.tayga
+{
+    width: 100%;
+    height: 100vh;
+    background-color: white;
+    border-bottom: 1px solid gray;
+}
